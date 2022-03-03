@@ -1,18 +1,19 @@
 #include<stdio.h>
 int main()
 {
-    int i,j,k;
-    for ( i = 1; i <=5; i++)
+    int n,k;
+    printf("enter the num =");
+    scanf("%d",&n);
+    for ( int i = 1; i <=n; i++)
     {
-       
-        for(j=i;j<=5;j++)
+       for(k=0;k<=i-1;k++)
         {
+            printf("\t");
+        }
             
-            for(k=1; k<=j-1 ; k++)
-                {
-                    printf("");
-                }
-            printf("%d ",j);    
+        for(int j=i; j<=n; j++)
+        {
+            printf("%d\t ",j);
         }
         printf("\n");
     }
