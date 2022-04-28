@@ -1,3 +1,5 @@
+// WAP to find sum, product, quotient of numbers.
+
 #include<stdio.h>
 int question_2(float a, float b)
 {
