@@ -1,4 +1,4 @@
-// Wap to calculate the volm of pool by using function and already given value.
+// Wap to calculate the volm of pool by using function and already given value(25, 10 , 6).
 
 #include<stdio.h>
 int volume_of_pool(int l,int w,int d)
