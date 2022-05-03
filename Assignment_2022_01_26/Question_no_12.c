@@ -1,3 +1,4 @@
+// Wap to 5 digit int number reverse
 #include<stdio.h>
 void main()
 {
