@@ -2,6 +2,17 @@
 #include<conio.h>
 #include<math.h>
 //#include<graphics.h>
+//What I want to print;
+//..........
+//....  ....
+//...    ...
+//..      ..
+//.        .
+//..      ..
+//...    ...
+//....  ....
+//..........
+//But it is not working
 
 
 int function1()
@@ -36,7 +47,7 @@ int function2(int h)
 }
 void main()
 {
-    function1();
+    //function1();
     function2(5);
     //function3();
 }
